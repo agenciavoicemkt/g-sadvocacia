@@ -140,7 +140,7 @@ p {
 /* Hero Section */
 .hero-section {
     position: relative;
-    min-height: 95vh;
+    min-height: 95svh;
     display: flex;
     align-items: center;
     color: var(--color-bg-white);
