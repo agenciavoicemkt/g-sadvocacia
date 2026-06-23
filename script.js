@@ -7,13 +7,13 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Parallax suave no scroll para a hero
-    window.addEventListener('scroll', () => {
-        if (heroBg) {
-            const scrolled = window.scrollY;
-            heroBg.style.transform = `scale(1) translateY(${scrolled * 0.3}px)`;
-        }
-    }, { passive: true });
+    // Parallax removido a pedido
+    // window.addEventListener('scroll', () => {
+    //     if (heroBg) {
+    //         const scrolled = window.scrollY;
+    //         heroBg.style.transform = `scale(1) translateY(${scrolled * 0.3}px)`;
+    //     }
+    // }, { passive: true });
 
     const form = document.getElementById('leadForm');
 
