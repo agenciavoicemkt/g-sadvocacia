@@ -151,7 +151,7 @@ p {
 .hero-bg-image {
     position: absolute;
     inset: 0;
-    background-image: url('./hero-bg.jpg');
+    background-image: url('./hero-bg-optimized.jpg');
     background-size: cover;
     background-position: center 30%;
     transform: scale(1.1);
