@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (nome && whatsapp) {
             // Número placeholder. O cliente precisa informar o número real nas perguntas abertas do plano.
             // Formato internacional, sem '+' ou '-'
-            const numeroDestino = '5511999999999'; 
+            const numeroDestino = '5511920065663'; 
             
             const mensagem = `Olá! Meu nome é ${nome}. Tive um problema com meu voo e gostaria de falar com um advogado especialista. Meu contato é ${whatsapp}.`;
             
